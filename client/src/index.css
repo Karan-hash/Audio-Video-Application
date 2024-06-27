@@ -1,0 +1,70 @@
+/* src/index.css */
+.progress-bar {
+  width: 100%;
+  background-color: #f3f3f3;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+  margin: 10px 0;
+}
+
+.progress {
+  height: 20px;
+  background-color: #4caf50;
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+}
+
+.message {
+  color: green;
+  margin-top: 10px;
+}
+
+/* index.css */
+.file-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.file-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.file-item:hover {
+  background-color: #f0f0f0;
+}
+
+.file-item > div {
+  flex: 1;
+}
+
+.file-item h3 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.file-item p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.file-item a {
+  text-decoration: none;
+  background-color: #007bff;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.file-item a:hover {
+  background-color: #0056b3;
+}
