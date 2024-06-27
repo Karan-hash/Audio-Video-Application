@@ -25,11 +25,11 @@ This application allows users to upload audio and video files, store them on AWS
 3. **Configuration:**
    - 3.1 Create a .env file in the backend directory: touch .env
    - 3.2 Add the following environment variables to .env:
-     PORT=5000
-     MONGODB_URL=mongodb_connection_string
-     AWS_ACCESS_KEY=aws_access_key
-     AWS_SECRET_KEY=aws_secret_key
-     AWS_BUCKET_NAME=aws_bucket_name
+   - PORT=5000
+   - MONGODB_URL=mongodb_connection_string
+   - AWS_ACCESS_KEY=aws_access_key
+   - AWS_SECRET_KEY=aws_secret_key
+   - AWS_BUCKET_NAME=aws_bucket_name
 
 4. **Running the server using command:**
     node server.js or nodemon server.js
