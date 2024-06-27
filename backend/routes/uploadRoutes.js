@@ -42,7 +42,7 @@ router.post('/upload', upload.single('file'), async (req, res) => {
     const duration = metadata.format.duration;
     if (duration > 1800) {
       fs.unlinkSync(tempFilePath); // Cleaning up the temp file
-      return res.status(400).json({ error: 'File exceeds 30 minutes limit' });
+      return res.status(400).json({ error: 'Error: File exceeds 30 minutes limit' });
     }
 
     // Compressing the video

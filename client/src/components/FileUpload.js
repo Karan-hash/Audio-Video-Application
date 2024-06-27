@@ -16,8 +16,8 @@ const FileUpload = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    setError(''); // Reset error message
-    setMessage(''); // Reset message
+    setError(''); 
+    setMessage('');
 
     const formData = new FormData();
     formData.append('title', title);
